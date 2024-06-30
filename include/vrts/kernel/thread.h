@@ -1,5 +1,5 @@
-#ifndef VRTS_KERNEL_THREAD_H
-#define VRTS_KERNEL_THREAD_H
+#ifndef __VRTS_KERNEL_THREAD_H
+#define __VRTS_KERNEL_THREAD_H
 
 #pragma once
 
@@ -10,4 +10,4 @@ struct thread
     int tid;
 };
 
-#endif // !VRTS_KERNEL_THREAD_H
+#endif // !__VRTS_KERNEL_THREAD_H

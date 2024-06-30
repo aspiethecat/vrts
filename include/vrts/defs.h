@@ -1,5 +1,5 @@
-#ifndef VRTS_DEFS_H
-#define VRTS_DEFS_H
+#ifndef __VRTS_DEFS_H
+#define __VRTS_DEFS_H
 
 #pragma once
 
@@ -22,12 +22,12 @@
 // Applicable to static arrays only.
 #define lengthof(x) (sizeof(x) / sizeof(*(x)))
 
-#if !defined(min)
-#define min(a, b) ((a) < (b) ? (a) : (b))
+#ifndef min
+#   define min(a, b) ((a) < (b) ? (a) : (b))
 #endif
 
-#if !defined(max)
-#define max(a, b) ((a) > (b) ? (a) : (b))
+#ifndef max
+#   define max(a, b) ((a) > (b) ? (a) : (b))
 #endif
 
-#endif // !VRTS_DEFS_H
+#endif // !__VRTS_DEFS_H

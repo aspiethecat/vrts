@@ -1,5 +1,5 @@
-#ifndef VRTS_KERNEL_PROCESS_H
-#define VRTS_KERNEL_PROCESS_H
+#ifndef __VRTS_KERNEL_PROCESS_H
+#define __VRTS_KERNEL_PROCESS_H
 
 #pragma once
 
@@ -9,6 +9,7 @@ struct process
 {
     int pid;
     int parent_pid;
+    char *name;
 };
 
-#endif // !VRTS_KERNEL_PROCESS_H
+#endif // !__VRTS_KERNEL_PROCESS_H
