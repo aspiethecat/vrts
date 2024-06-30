@@ -1,5 +1,5 @@
-#ifndef VRTS_STD_H
-#define VRTS_STD_H
+#ifndef VRTS_DEFS_H
+#define VRTS_DEFS_H
 
 #pragma once
 
@@ -30,4 +30,4 @@
 #define max(a, b) ((a) > (b) ? (a) : (b))
 #endif
 
-#endif VRTS_STD_H
+#endif // !VRTS_DEFS_H
