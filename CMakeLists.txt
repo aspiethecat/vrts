@@ -7,4 +7,8 @@ set(CMAKE_C_STANDARD 23)
 set(CMAKE_C_FLAGS "-std=c2x -Wall -Werror -Wextra -Wpedantic -nostdinc")
 
 include_directories(include)
-set(CMAKE_C_FLAGS "-std=c2x -Wall -Werror -Wextra -Wpedantic")
+
+add_executable(kernel
+        src/kernel/main.c
+        src/kernel/process.c
+        src/kernel/thread.c)

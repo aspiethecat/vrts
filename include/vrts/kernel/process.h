@@ -7,6 +7,8 @@
 
 struct process
 {
+    int pid;
+    int parent_pid;
 };
 
 #endif // !VRTS_KERNEL_PROCESS_H

@@ -7,6 +7,7 @@
 
 struct thread
 {
+    int tid;
 };
 
 #endif // !VRTS_KERNEL_THREAD_H
