@@ -1,0 +1,12 @@
+---
+Language: Cpp
+BasedOnStyle: Google
+
+# Lines
+ColumnLimit: 120
+LineEnding: LF
+
+# Indentation
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
